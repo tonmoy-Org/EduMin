@@ -1,0 +1,13 @@
+textarea {
+    width: 100%; /* fallback width */
+    max-width: 70ch; /* limit width to 70 characters */
+  }
+  
+  @media (min-width: 768px) {
+    textarea {
+      width: auto; /* reset to auto to allow expansion */
+      max-width: none; /* remove width limit */
+      min-width: 500px; /* set minimum width for large devices */
+    }
+  }
+  

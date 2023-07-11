@@ -1,0 +1,47 @@
+.banner-title {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.img-box {
+    width: 800px;
+}
+
+.banner-2-title {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.text-p {
+    font-size: 1.125rem;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.team-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.blog-t {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+@media (min-width:1024px) {
+    .banner-title {
+        font-size: 86px;
+        line-height: 100px;
+    }
+
+    .img-about {
+        width: 300px;
+    }
+}

@@ -1,0 +1,18 @@
+.new-blog{
+    height: 500px;
+    width: 400px;
+}
+.new-blog-2{
+    height: 300px;
+    width: 400px;
+}
+@media (max-width:576px) {
+    .new-blog{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .new-blog-2{
+        width: 350px;
+        margin: 0 auto;
+    } 
+}
